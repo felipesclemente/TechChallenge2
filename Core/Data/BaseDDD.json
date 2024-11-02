@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "ddd": "11",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 2,
+    "ddd": "12",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 3,
+    "ddd": "13",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 4,
+    "ddd": "14",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 5,
+    "ddd": "15",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 6,
+    "ddd": "16",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 7,
+    "ddd": "17",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 8,
+    "ddd": "18",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 9,
+    "ddd": "19",
+    "regiao": "Sudeste",
+    "uf": "SP"
+  },
+  {
+    "id": 10,
+    "ddd": "21",
+    "regiao": "Sudeste",
+    "uf": "RJ"
+  },
+  {
+    "id": 11,
+    "ddd": "22",
+    "regiao": "Sudeste",
+    "uf": "RJ"
+  },
+  {
+    "id": 12,
+    "ddd": "24",
+    "regiao": "Sudeste",
+    "uf": "RJ"
+  },
+  {
+    "id": 13,
+    "ddd": "27",
+    "regiao": "Sudeste",
+    "uf": "ES"
+  },
+  {
+    "id": 14,
+    "ddd": "28",
+    "regiao": "Sudeste",
+    "uf": "ES"
+  },
+  {
+    "id": 15,
+    "ddd": "31",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 16,
+    "ddd": "32",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 17,
+    "ddd": "33",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 18,
+    "ddd": "34",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 19,
+    "ddd": "35",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 20,
+    "ddd": "37",
+    "regiao": "Sudeste",
+    "uf": "MG"
+  },
+  {
+    "id": 21,
+    "ddd": "41",
+    "regiao": "Sul",
+    "uf": "PR"
+  },
+  {
+    "id": 22,
+    "ddd": "42",
+    "regiao": "Sul",
+    "uf": "SC"
+  },
+  {
+    "id": 23,
+    "ddd": "43",
+    "regiao": "Sul",
+    "uf": "RS"
+  },
+  {
+    "id": 24,
+    "ddd": "44",
+    "regiao": "Centro-Oeste",
+    "uf": "PR"
+  },
+  {
+    "id": 25,
+    "ddd": "45",
+    "regiao": "Centro-Oeste",
+    "uf": "PR"
+  },
+  {
+    "id": 26,
+    "ddd": "46",
+    "regiao": "Centro-Oeste",
+    "uf": "PR"
+  },
+  {
+    "id": 27,
+    "ddd": "47",
+    "regiao": "Sul",
+    "uf": "SC"
+  },
+  {
+    "id": 28,
+    "ddd": "48",
+    "regiao": "Sul",
+    "uf": "SC"
+  },
+  {
+    "id": 29,
+    "ddd": "49",
+    "regiao": "Sul",
+    "uf": "SC"
+  },
+  {
+    "id": 30,
+    "ddd": "51",
+    "regiao": "Sul",
+    "uf": "RS"
+  },
+  {
+    "id": 31,
+    "ddd": "52",
+    "regiao": "Centro-Oeste",
+    "uf": "MS"
+  },
+  {
+    "id": 32,
+    "ddd": "53",
+    "regiao": "Centro-Oeste",
+    "uf": "MS"
+  },
+  {
+    "id": 33,
+    "ddd": "61",
+    "regiao": "Centro-Oeste",
+    "uf": "DF"
+  },
+  {
+    "id": 34,
+    "ddd": "62",
+    "regiao": "Centro-Oeste",
+    "uf": "GO"
+  },
+  {
+    "id": 35,
+    "ddd": "63",
+    "regiao": "Centro-Oeste",
+    "uf": "TO"
+  },
+  {
+    "id": 36,
+    "ddd": "64",
+    "regiao": "Nordeste",
+    "uf": "TO"
+  },
+  {
+    "id": 37,
+    "ddd": "65",
+    "regiao": "Centro-Oeste",
+    "uf": "MT"
+  },
+  {
+    "id": 38,
+    "ddd": "66",
+    "regiao": "Centro-Oeste",
+    "uf": "MT"
+  },
+  {
+    "id": 39,
+    "ddd": "67",
+    "regiao": "Centro-Oeste",
+    "uf": "MS"
+  },
+  {
+    "id": 40,
+    "ddd": "68",
+    "regiao": "Norte",
+    "uf": "AC"
+  },
+  {
+    "id": 41,
+    "ddd": "69",
+    "regiao": "Norte",
+    "uf": "AM"
+  },
+  {
+    "id": 42,
+    "ddd": "71",
+    "regiao": "Nordeste",
+    "uf": "BA"
+  },
+  {
+    "id": 43,
+    "ddd": "73",
+    "regiao": "Nordeste",
+    "uf": "BA"
+  },
+  {
+    "id": 44,
+    "ddd": "74",
+    "regiao": "Nordeste",
+    "uf": "PA"
+  },
+  {
+    "id": 45,
+    "ddd": "75",
+    "regiao": "Nordeste",
+    "uf": "BA"
+  },
+  {
+    "id": 46,
+    "ddd": "77",
+    "regiao": "Nordeste",
+    "uf": "BA"
+  },
+  {
+    "id": 47,
+    "ddd": "79",
+    "regiao": "Nordeste",
+    "uf": "SE"
+  },
+  {
+    "id": 48,
+    "ddd": "81",
+    "regiao": "Nordeste",
+    "uf": "PE"
+  },
+  {
+    "id": 49,
+    "ddd": "82",
+    "regiao": "Nordeste",
+    "uf": "AL"
+  },
+  {
+    "id": 50,
+    "ddd": "83",
+    "regiao": "Nordeste",
+    "uf": "PB"
+  },
+  {
+    "id": 51,
+    "ddd": "84",
+    "regiao": "Nordeste",
+    "uf": "RN"
+  },
+  {
+    "id": 52,
+    "ddd": "85",
+    "regiao": "Nordeste",
+    "uf": "CE"
+  },
+  {
+    "id": 53,
+    "ddd": "86",
+    "regiao": "Nordeste",
+    "uf": "PI"
+  },
+  {
+    "id": 54,
+    "ddd": "87",
+    "regiao": "Nordeste",
+    "uf": "PE"
+  },
+  {
+    "id": 55,
+    "ddd": "88",
+    "regiao": "Nordeste",
+    "uf": "CE"
+  },
+  {
+    "id": 56,
+    "ddd": "89",
+    "regiao": "Nordeste",
+    "uf": "PI"
+  },
+  {
+    "id": 57,
+    "ddd": "91",
+    "regiao": "Norte",
+    "uf": "PA"
+  },
+  {
+    "id": 58,
+    "ddd": "92",
+    "regiao": "Norte",
+    "uf": "AM"
+  },
+  {
+    "id": 59,
+    "ddd": "93",
+    "regiao": "Norte",
+    "uf": "PA"
+  },
+  {
+    "id": 60,
+    "ddd": "94",
+    "regiao": "Norte",
+    "uf": "PA"
+  },
+  {
+    "id": 61,
+    "ddd": "95",
+    "regiao": "Norte",
+    "uf": "RR"
+  },
+  {
+    "id": 62,
+    "ddd": "96",
+    "regiao": "Norte",
+    "uf": "AP"
+  },
+  {
+    "id": 63,
+    "ddd": "97",
+    "regiao": "Norte",
+    "uf": "AM"
+  },
+  {
+    "id": 64,
+    "ddd": "98",
+    "regiao": "Nordeste",
+    "uf": "MA"
+  },
+  {
+    "id": 65,
+    "ddd": "99",
+    "regiao": "Nordeste",
+    "uf": "MA"
+  }
+]

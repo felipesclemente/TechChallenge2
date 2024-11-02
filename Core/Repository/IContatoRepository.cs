@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Input;
 
 namespace Core.Repository
 {
@@ -8,9 +9,13 @@ namespace Core.Repository
 
         Contato GetById(int id);
 
-        void Create(Contato contato);
+        IList<Contato> GetByDDD(int ddd);
 
-        void Update(Contato contato);
+        IList<Contato> GetByRegiao(string regiao);
+
+        void Create(ContatoCreate input);
+
+        void Update(ContatoUpdate input);
 
         void Delete(int id);
     }

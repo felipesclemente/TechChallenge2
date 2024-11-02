@@ -1,5 +1,7 @@
 using Core.Repository;
 using Infrastructure.Repository;
+using System.Reflection;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace ContatosAPI
@@ -12,17 +14,27 @@ namespace ContatosAPI
 
             var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(opts =>
+            {
+                opts.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+            });
 
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            builder.Services.AddSwaggerGen(opts =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("LocalDb"));
+                opts.SwaggerDoc("v1", new() { Title = "TechChallenge1", Version = "v1" });
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                opts.IncludeXmlComments(xmlPath);
+            });
+
+            builder.Services.AddDbContext<ApplicationDbContext>(opts =>
+            {
+                opts.UseSqlServer(configuration.GetConnectionString("ConnectionString"));
             }, ServiceLifetime.Scoped);
 
             builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
+            builder.Services.AddScoped<IRegioesRepository, RegioesRepository>();
 
             var app = builder.Build();
 

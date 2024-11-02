@@ -15,7 +15,7 @@ namespace Infrastructure.Repository
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            _connectionString = configuration.GetConnectionString("LocalDb")!;
+            _connectionString = configuration.GetConnectionString("ConnectionString")!;
         }
 
         public ApplicationDbContext(string connectionString)
@@ -24,6 +24,7 @@ namespace Infrastructure.Repository
         }
 
         public DbSet<Contato> Contato { get; set; }
+        public DbSet<Regioes> Regioes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
