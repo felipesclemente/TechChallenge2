@@ -20,7 +20,11 @@ A ContatosAPI foi desenvolvida integralmente em C#, e tem como dependência os p
 
 Primeiramente, efetue o clone do repositório e abra a solução no Visual Studio 2022. Em seguida, abra o arquivo `appsettings.json` localizado no projeto ContatosAPI, e altere a `ConnectionString` contida no topo do arquivo para conectar no seu banco de dados SQL Server, fornecendo as credenciais de acesso que forem necessárias.
 
-Após, para criar as tabelas `Contato` e `Regioes` no banco de dados, abra o Console de Gerenciador de Pacotes do Visual Studio, e execute o seguinte comando:
+Após, para criar as tabelas `Contato` e `Regioes` no banco de dados, abra o Console de Gerenciador de Pacotes do Visual Studio, e execute os seguintes comandos em ordem:
+
+```
+Add-Migration FirstMigration -Project Infrastructure -StartupProject Infrastructure 
+```
 
 ```
 Update-Database -Project Infrastructure -StartupProject Infrastructure -Connection "Sua-Connection-String"
