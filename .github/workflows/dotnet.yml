@@ -26,6 +26,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Run DB test image
       run: docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Password.123" -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest
+    - name: Wait
+      run: sleep 5
     - name: Create test table
       run: /opt/mssql-tools18/bin/sqlcmd -No -S localhost -U sa -P "Password.123" -q "CREATE TABLE test (id INT); INSERT INTO test VALUES (6623)"
     - name: Test
