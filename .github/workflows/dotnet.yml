@@ -37,6 +37,6 @@ jobs:
       run: |
         dotnet tool install --global dotnet-ef
         dotnet tool restore
-        dotnet ef database update -p Infrastructure -s Infrastructure --connection "Server=localhost;User ID=sa;Password=Password.1234;TrustServerCertificate=true;Encrypt=false"
+        dotnet ef database update 20250118130030_FirstMigration --connection "Server=localhost;User ID=sa;Password=Password.1234;TrustServerCertificate=true;Encrypt=false"
     - name: Test
       run: dotnet test --no-build --verbosity normal
