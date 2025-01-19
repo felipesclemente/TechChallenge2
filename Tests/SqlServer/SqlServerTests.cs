@@ -6,7 +6,7 @@ namespace Tests.SqlServer
 {
     public class SqlServerTests
     {
-        private readonly string _connectionString;
+        private string _connectionString;
 
         public SqlServerTests()
         {
