@@ -23,6 +23,7 @@ namespace Infrastructure.Repository
             _connectionString = connectionString;
         }
 
+
         public DbSet<Contato> Contato { get; set; }
         public DbSet<Regioes> Regioes { get; set; }
 
