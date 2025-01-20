@@ -23,5 +23,26 @@ namespace Tests.SqlServer
             //Assert
             Assert.Equal("Sudeste", result);
         }
+
+        [Fact]
+        public void TabelaContato_EstaDisponivel()
+        {
+            //Arrange
+            var sqlConn = new SqlConnection(connectionString);
+            sqlConn.Open();
+
+            //Act
+            using var insertCommand = sqlConn.CreateCommand();
+            insertCommand.CommandText = "INSERT INTO Contato VALUES ('Teste', 99, 123456789, 'teste@passou.com')";
+            insertCommand.ExecuteScalar();
+
+            using var queryCommand = sqlConn.CreateCommand();
+            queryCommand.CommandText = "SELECT Email FROM CONTATO WHERE Nome = 'Teste'";
+            var result = queryCommand.ExecuteScalar();
+            sqlConn.Close();
+
+            //Assert
+            Assert.Equal("teste@passou.com", result);
+        }
     }
 }
